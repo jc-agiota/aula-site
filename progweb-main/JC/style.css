@@ -1,0 +1,71 @@
+.container{
+    margin: 0 auto;
+    width: 960px;
+}
+body{
+    font-family:'Lucida Sans Unicode', verdana, sans-serif;
+    line-height: 1.6;
+    background: #6ac7c7 url(noise.png);
+}
+.lugar{
+    border-color: #CCC, #999, #999, #ccc;
+    border-style: outset ;
+    border-width: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #9d7038 url(noise.png);
+}
+.lugar h2{
+    border-bottom: 1px dashed;
+    margin: 0;
+}
+.lugar a{
+    color: rgb(40, 161, 161);
+    font-weight: bold;
+}
+
+a:hover{
+    color: rgb(40, 161, 161);
+    border-style: inset;
+}
+
+.lugar img{
+    height:200px ;
+    border:1px solid black ;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 2px;
+    
+}
+
+.clear{
+    clear: both;
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
+    clear: both;
+}
+
+.notas {
+    background-color: #69b6b6;
+    padding: 10px;
+    border-style: outset ;
+    border-width: 5px;
+    float: right;
+}
+
+.notas h3 {
+    font-size: 14px;
+    margin-top: 0;
+}  
+
+.notas ol{
+    font-size: 12px;
+}
+
+.todoslugares{
+    float: left;
+    width: 700px;
+}
