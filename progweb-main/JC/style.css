@@ -67,5 +67,14 @@ footer{
 
 .todoslugares{
     float: left;
-    width: 700px;
+    width: 660px;
+}
+
+.tabela{
+    float: left;
+    width: 660px;
+    background-color: #9d7038 ;
+    padding: 10px;
+    border-style: outset ;
+    border-width: 5px; 
 }
