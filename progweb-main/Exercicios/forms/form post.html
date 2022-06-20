@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FORMULARIO</title>
+    <meta charset="UTF8">
+</head>
+<body>
+    <form action="http://192.168.36.185/fpw/atividade/exe_02.php" method="post">
+        <label for="pnome">Primeiro nome:</label><br>
+        <input type="text" id="pnome" name="pnome"><br>
+        <label for="unome">Ultimo nome</label><br>
+        <input type="text" id="unome" name="unome"><br>
+        <label for="email">Email</label><br>
+        <input type="text" id="email" name="email"><br>
+
+        <p>Sexo:</p>
+        <input type="radio" id="M" name="sexo" value="M">
+        <label for="html">M</label><br>
+        <input type="radio" id="F" name="sexo" value="F">
+        <label for="css">F</label><br>
+
+        <p>linguagens:</p>
+        <input type="checkbox" id="C" name="linguagens[]" value="C">
+        <label for="vehicle1">C</label><br>
+        <input type="checkbox" id="python" name="linguagens[]" value="python">
+        <label for="vehicle2">python</label><br>
+        <input type="checkbox" id="javascript" name="linguagens[]" value="javascript">
+        <label for="vehicle3">java script</label><br><br>
+
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+      </form>
+
+</body>
+
