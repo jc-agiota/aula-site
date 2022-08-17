@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <title>Desenhando com CANVAS</title>
+    </head>
+    <body>
+        <canvas id="myCanvas" width="300" height="300">
+            
+        </canvas>
+    </body>
+    <script>
+        const canvas = document.getElementById("myCanvas")
+        const ctx = canvas.getContext("2d") 
+        ctx.fillStyle = "rgba(250, 92, 92, .50)";
+        ctx.fillRect(0, 0, 150, 150);
+      
+        ctx.fillStyle = "rgba(144, 238, 144, .50)";
+        ctx.fillRect(75, 75, 150, 150);
+    </script>
+</html>

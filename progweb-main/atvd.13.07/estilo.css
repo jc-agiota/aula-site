@@ -1,0 +1,90 @@
+
+.section {
+	width: 70%;
+	margin: 0 auto;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.grid2 {
+	width: 100%;
+	
+	display: grid;
+	gap: 20px;
+	grid-template-areas: 
+	'main main main item1'
+	'main main main item2'
+	'. . . item3'
+	'. . . item4';
+	
+	margin-top: 2rem;
+}
+
+.grid2 .main {
+	grid-area: main;
+}
+.grid2 .item1 {
+	grid-area: item1;
+}
+.grid2 .item2 {
+	grid-area: item2;
+}
+.grid2 .item3 {
+	grid-area: item3;
+}
+.grid2 .item4 {
+	grid-area: item4;
+}
+
+.main, .item1, .item2, .item3, .item4 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+img {
+	border-radius: 4px;
+}
+
+.section > title {
+	margin-top: 1.5rem;
+}
+
+.grid3 {
+	display: grid;
+	gap: .5rem;
+	width: 50%;
+	grid-template-areas: 
+	'content1 content1 content2 content2'
+	'content1 content1 content3 content3';
+}
+
+.grid3 .content1 {
+	grid-area: content1;
+	align-items: end;
+}
+.grid3 .content2 {
+	grid-area: content2;
+}
+.grid3 .content3 {
+	grid-area: content3;
+}
+
+.content1, .content2, .content3 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.content1 > p , .content2 > p, .content3 > p {
+	position: absolute;
+	padding: 1rem;
+	color: white;
+	z-index:10;
+	bottom: 0;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.55);
+}
